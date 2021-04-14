@@ -479,7 +479,7 @@ serdes_driver_current_lane3_32=2
 serdes_pre_driver_current_lane3_32=2
 serdes_preemphasis_lane3_32=0x8fc0
 
-# Port xe0
+# Port {xe0, xe1, xe2, xe3} [40G, 4x10G]
 phy_84328_1.0=1
 phy_an_c37_1.0=3
 phy_an_c73_1.0=1
@@ -496,11 +496,14 @@ port_phy_clause_1.0=0x2d
 port_phy_id0_1.0=0x600d
 port_phy_id1_1.0=0x8500
 portmap_1.0=125:40
+portmap_2.0=126:10:i
+portmap_3.0=127:10:i
+portmap_4.0=128:10:i
 serdes_firmware_mode_1.0=1
 xgxs_rx_lane_map_1.0=0x0123
 xgxs_tx_lane_map_1.0=0x0123
 
-# Port xe4
+# Port {xe4, xe5, xe6, xe7} [40G, 4x10G]
 phy_84328_5.0=1
 phy_an_c37_5.0=3
 phy_an_c73_5.0=1
@@ -517,11 +520,14 @@ port_phy_clause_5.0=0x2d
 port_phy_id0_5.0=0x600d
 port_phy_id1_5.0=0x8500
 portmap_5.0=121:40
+portmap_6.0=122:10:i
+portmap_7.0=123:10:i
+portmap_8.0=124:10:i
 serdes_firmware_mode_5.0=1
 xgxs_rx_lane_map_5.0=0x0123
 xgxs_tx_lane_map_5.0=0x0123
 
-# Port xe8
+# Port {xe8, xe9, xe10, xe11} [40G, 4x10G]
 phy_84328_9.0=1
 phy_an_c37_9.0=3
 phy_an_c73_9.0=1
@@ -538,11 +544,14 @@ port_phy_clause_9.0=0x2d
 port_phy_id0_9.0=0x600d
 port_phy_id1_9.0=0x8500
 portmap_9.0=13:40
+portmap_10.0=14:10:i
+portmap_11.0=15:10:i
+portmap_12.0=16:10:i
 serdes_firmware_mode_9.0=1
 xgxs_rx_lane_map_9.0=0x0123
 xgxs_tx_lane_map_9.0=0x0123
 
-# Port xe12
+# Port {xe12, xe13, xe14, xe15} [40G, 4x10G]
 phy_84328_13.0=1
 phy_an_c37_13.0=3
 phy_an_c73_13.0=1
@@ -559,11 +568,14 @@ port_phy_clause_13.0=0x2d
 port_phy_id0_13.0=0x600d
 port_phy_id1_13.0=0x8500
 portmap_13.0=9:40
+portmap_14.0=10:10:i
+portmap_15.0=11:10:i
+portmap_16.0=12:10:i
 serdes_firmware_mode_13.0=1
 xgxs_rx_lane_map_13.0=0x0123
 xgxs_tx_lane_map_13.0=0x0123
 
-# Port xe16
+# Port {xe16, xe17, xe18, xe19} [40G, 4x10G]
 phy_an_c37_17.0=3
 phy_an_c73_17.0=1
 phy_xaui_rx_polarity_flip_17.0=0x0
@@ -571,11 +583,14 @@ phy_xaui_tx_polarity_flip_17.0=0x0
 port_init_autoneg_17.0=0
 port_phy_addr_17.0=0x7f
 portmap_17.0=17:40
+portmap_18.0=18:10:i
+portmap_19.0=19:10:i
+portmap_20.0=20:10:i
 serdes_firmware_mode_17.0=2
 xgxs_rx_lane_map_17.0=0x2031
 xgxs_tx_lane_map_17.0=0x1302
 
-# Port xe20
+# Port {xe20, xe21, xe22, xe23} [40G, 4x10G]
 phy_an_c37_21.0=3
 phy_an_c73_21.0=1
 phy_xaui_rx_polarity_flip_21.0=0x0
@@ -583,11 +598,14 @@ phy_xaui_tx_polarity_flip_21.0=0x0
 port_init_autoneg_21.0=0
 port_phy_addr_21.0=0x7f
 portmap_21.0=21:40
+portmap_22.0=22:10:i
+portmap_23.0=23:10:i
+portmap_24.0=24:10:i
 serdes_firmware_mode_21.0=2
 xgxs_rx_lane_map_21.0=0x2031
 xgxs_tx_lane_map_21.0=0x1302
 
-# Port xe24
+# Port {xe24, xe25, xe26, xe27} [40G, 4x10G]
 phy_an_c37_25.0=3
 phy_an_c73_25.0=1
 phy_xaui_rx_polarity_flip_25.0=0x0
@@ -595,11 +613,14 @@ phy_xaui_tx_polarity_flip_25.0=0x0
 port_init_autoneg_25.0=0
 port_phy_addr_25.0=0x7f
 portmap_25.0=25:40
+portmap_26.0=26:10:i
+portmap_27.0=27:10:i
+portmap_28.0=28:10:i
 serdes_firmware_mode_25.0=2
 xgxs_rx_lane_map_25.0=0x2031
 xgxs_tx_lane_map_25.0=0x1302
 
-# Port xe28
+# Port {xe28, xe29, xe30, xe31} [40G, 4x10G]
 phy_an_c37_29.0=3
 phy_an_c73_29.0=1
 phy_xaui_rx_polarity_flip_29.0=0x0
@@ -607,11 +628,14 @@ phy_xaui_tx_polarity_flip_29.0=0x0
 port_init_autoneg_29.0=0
 port_phy_addr_29.0=0x7f
 portmap_29.0=29:40
+portmap_30.0=30:10:i
+portmap_31.0=31:10:i
+portmap_32.0=32:10:i
 serdes_firmware_mode_29.0=2
 xgxs_rx_lane_map_29.0=0x2031
 xgxs_tx_lane_map_29.0=0x1302
 
-# Port xe32
+# Port {xe32, xe33, xe34, xe35} [40G, 4x10G]
 phy_an_c37_33.0=3
 phy_an_c73_33.0=1
 phy_xaui_rx_polarity_flip_33.0=0x0
@@ -619,11 +643,14 @@ phy_xaui_tx_polarity_flip_33.0=0x0
 port_init_autoneg_33.0=0
 port_phy_addr_33.0=0x7f
 portmap_33.0=37:40
+portmap_34.0=38:10:i
+portmap_35.0=39:10:i
+portmap_36.0=40:10:i
 serdes_firmware_mode_33.0=2
 xgxs_rx_lane_map_33.0=0x3120
 xgxs_tx_lane_map_33.0=0x3120
 
-# Port xe36
+# Port {xe36, xe37, xe38, xe39} [40G, 4x10G]
 phy_an_c37_37.0=3
 phy_an_c73_37.0=1
 phy_xaui_rx_polarity_flip_37.0=0x0
@@ -631,11 +658,14 @@ phy_xaui_tx_polarity_flip_37.0=0x0
 port_init_autoneg_37.0=0
 port_phy_addr_37.0=0x7f
 portmap_37.0=33:40
+portmap_38.0=34:10:i
+portmap_39.0=35:10:i
+portmap_40.0=36:10:i
 serdes_firmware_mode_37.0=2
 xgxs_rx_lane_map_37.0=0x3120
 xgxs_tx_lane_map_37.0=0x3120
 
-# Port xe40
+# Port {xe40, xe41, xe42, xe43} [40G, 4x10G]
 phy_an_c37_41.0=3
 phy_an_c73_41.0=1
 phy_xaui_rx_polarity_flip_41.0=0x0
@@ -643,11 +673,14 @@ phy_xaui_tx_polarity_flip_41.0=0x0
 port_init_autoneg_41.0=0
 port_phy_addr_41.0=0x7f
 portmap_41.0=45:40
+portmap_42.0=46:10:i
+portmap_43.0=47:10:i
+portmap_44.0=48:10:i
 serdes_firmware_mode_41.0=2
 xgxs_rx_lane_map_41.0=0x3120
 xgxs_tx_lane_map_41.0=0x3120
 
-# Port xe44
+# Port {xe44, xe45, xe46, xe47} [40G, 4x10G]
 phy_an_c37_45.0=3
 phy_an_c73_45.0=1
 phy_xaui_rx_polarity_flip_45.0=0x0
@@ -655,11 +688,14 @@ phy_xaui_tx_polarity_flip_45.0=0x0
 port_init_autoneg_45.0=0
 port_phy_addr_45.0=0x7f
 portmap_45.0=41:40
+portmap_46.0=42:10:i
+portmap_47.0=43:10:i
+portmap_48.0=44:10:i
 serdes_firmware_mode_45.0=2
 xgxs_rx_lane_map_45.0=0x3120
 xgxs_tx_lane_map_45.0=0x3120
 
-# Port xe48
+# Port {xe48, xe49, xe50, xe51} [40G, 4x10G]
 phy_an_c37_49.0=3
 phy_an_c73_49.0=1
 phy_xaui_rx_polarity_flip_49.0=0x0
@@ -667,11 +703,14 @@ phy_xaui_tx_polarity_flip_49.0=0x0
 port_init_autoneg_49.0=0
 port_phy_addr_49.0=0x7f
 portmap_49.0=53:40
+portmap_50.0=54:10:i
+portmap_51.0=55:10:i
+portmap_52.0=56:10:i
 serdes_firmware_mode_49.0=2
 xgxs_rx_lane_map_49.0=0x3120
 xgxs_tx_lane_map_49.0=0x3120
 
-# Port xe52
+# Port {xe52, xe53, xe54, xe55} [40G, 4x10G]
 phy_an_c37_53.0=3
 phy_an_c73_53.0=1
 phy_xaui_rx_polarity_flip_53.0=0x0
@@ -679,11 +718,14 @@ phy_xaui_tx_polarity_flip_53.0=0x0
 port_init_autoneg_53.0=0
 port_phy_addr_53.0=0x7f
 portmap_53.0=49:40
+portmap_54.0=50:10:i
+portmap_55.0=51:10:i
+portmap_56.0=52:10:i
 serdes_firmware_mode_53.0=2
 xgxs_rx_lane_map_53.0=0x3120
 xgxs_tx_lane_map_53.0=0x3120
 
-# Port xe56
+# Port {xe56, xe57, xe58, xe59} [40G, 4x10G]
 phy_an_c37_57.0=3
 phy_an_c73_57.0=1
 phy_xaui_rx_polarity_flip_57.0=0x0
@@ -691,11 +733,14 @@ phy_xaui_tx_polarity_flip_57.0=0x0
 port_init_autoneg_57.0=0
 port_phy_addr_57.0=0x7f
 portmap_57.0=69:40
+portmap_58.0=70:10:i
+portmap_59.0=71:10:i
+portmap_60.0=72:10:i
 serdes_firmware_mode_57.0=2
 xgxs_rx_lane_map_57.0=0x3120
 xgxs_tx_lane_map_57.0=0x3120
 
-# Port xe60
+# Port {xe60, xe61, xe62, xe63} [40G, 4x10G]
 phy_an_c37_61.0=3
 phy_an_c73_61.0=1
 phy_xaui_rx_polarity_flip_61.0=0x0
@@ -703,11 +748,14 @@ phy_xaui_tx_polarity_flip_61.0=0x0
 port_init_autoneg_61.0=0
 port_phy_addr_61.0=0x7f
 portmap_61.0=65:40
+portmap_62.0=66:10:i
+portmap_63.0=67:10:i
+portmap_64.0=68:10:i
 serdes_firmware_mode_61.0=2
 xgxs_rx_lane_map_61.0=0x3120
 xgxs_tx_lane_map_61.0=0x3120
 
-# Port xe64
+# Port {xe64, xe65, xe66, xe67} [40G, 4x10G]
 phy_an_c37_65.0=3
 phy_an_c73_65.0=1
 phy_xaui_rx_polarity_flip_65.0=0x0
@@ -715,11 +763,14 @@ phy_xaui_tx_polarity_flip_65.0=0x0
 port_init_autoneg_65.0=0
 port_phy_addr_65.0=0x7f
 portmap_65.0=77:40
+portmap_66.0=78:10:i
+portmap_67.0=79:10:i
+portmap_68.0=80:10:i
 serdes_firmware_mode_65.0=2
 xgxs_rx_lane_map_65.0=0x3120
 xgxs_tx_lane_map_65.0=0x3120
 
-# Port xe68
+# Port {xe68, xe69, xe70, xe71} [40G, 4x10G]
 phy_an_c37_69.0=3
 phy_an_c73_69.0=1
 phy_xaui_rx_polarity_flip_69.0=0x0
@@ -727,11 +778,14 @@ phy_xaui_tx_polarity_flip_69.0=0x0
 port_init_autoneg_69.0=0
 port_phy_addr_69.0=0x7f
 portmap_69.0=73:40
+portmap_70.0=74:10:i
+portmap_71.0=75:10:i
+portmap_72.0=76:10:i
 serdes_firmware_mode_69.0=2
 xgxs_rx_lane_map_69.0=0x3120
 xgxs_tx_lane_map_69.0=0x3120
 
-# Port xe72
+# Port {xe72, xe73, xe74, xe75} [40G, 4x10G]
 phy_an_c37_73.0=3
 phy_an_c73_73.0=1
 phy_xaui_rx_polarity_flip_73.0=0x0
@@ -739,11 +793,14 @@ phy_xaui_tx_polarity_flip_73.0=0x0
 port_init_autoneg_73.0=0
 port_phy_addr_73.0=0x7f
 portmap_73.0=93:40
+portmap_74.0=94:10:i
+portmap_75.0=95:10:i
+portmap_76.0=96:10:i
 serdes_firmware_mode_73.0=2
 xgxs_rx_lane_map_73.0=0x3120
 xgxs_tx_lane_map_73.0=0x3120
 
-# Port xe76
+# Port {xe76, xe77, xe78, xe79} [40G, 4x10G]
 phy_an_c37_77.0=3
 phy_an_c73_77.0=1
 phy_xaui_rx_polarity_flip_77.0=0x0
@@ -751,11 +808,14 @@ phy_xaui_tx_polarity_flip_77.0=0x0
 port_init_autoneg_77.0=0
 port_phy_addr_77.0=0x7f
 portmap_77.0=89:40
+portmap_78.0=90:10:i
+portmap_79.0=91:10:i
+portmap_80.0=92:10:i
 serdes_firmware_mode_77.0=2
 xgxs_rx_lane_map_77.0=0x3120
 xgxs_tx_lane_map_77.0=0x3120
 
-# Port xe80
+# Port {xe80, xe81, xe82, xe83} [40G, 4x10G]
 phy_an_c37_81.0=3
 phy_an_c73_81.0=1
 phy_xaui_rx_polarity_flip_81.0=0x0
@@ -763,11 +823,14 @@ phy_xaui_tx_polarity_flip_81.0=0x0
 port_init_autoneg_81.0=0
 port_phy_addr_81.0=0x7f
 portmap_81.0=101:40
+portmap_82.0=102:10:i
+portmap_83.0=103:10:i
+portmap_84.0=104:10:i
 serdes_firmware_mode_81.0=2
 xgxs_rx_lane_map_81.0=0x3120
 xgxs_tx_lane_map_81.0=0x3120
 
-# Port xe84
+# Port {xe84, xe85, xe86, xe87} [40G, 4x10G]
 phy_an_c37_85.0=3
 phy_an_c73_85.0=1
 phy_xaui_rx_polarity_flip_85.0=0x0
@@ -775,11 +838,14 @@ phy_xaui_tx_polarity_flip_85.0=0x0
 port_init_autoneg_85.0=0
 port_phy_addr_85.0=0x7f
 portmap_85.0=97:40
+portmap_86.0=98:10:i
+portmap_87.0=99:10:i
+portmap_88.0=100:10:i
 serdes_firmware_mode_85.0=2
 xgxs_rx_lane_map_85.0=0x3120
 xgxs_tx_lane_map_85.0=0x3120
 
-# Port xe88
+# Port {xe88, xe89, xe90, xe91} [40G, 4x10G]
 phy_an_c37_89.0=3
 phy_an_c73_89.0=1
 phy_xaui_rx_polarity_flip_89.0=0x0
@@ -787,11 +853,14 @@ phy_xaui_tx_polarity_flip_89.0=0x0
 port_init_autoneg_89.0=0
 port_phy_addr_89.0=0x7f
 portmap_89.0=109:40
+portmap_90.0=110:10:i
+portmap_91.0=111:10:i
+portmap_92.0=112:10:i
 serdes_firmware_mode_89.0=2
 xgxs_rx_lane_map_89.0=0x3120
 xgxs_tx_lane_map_89.0=0x3120
 
-# Port xe92
+# Port {xe92, xe93, xe94, xe95} [40G, 4x10G]
 phy_an_c37_93.0=3
 phy_an_c73_93.0=1
 phy_xaui_rx_polarity_flip_93.0=0x0
@@ -799,11 +868,14 @@ phy_xaui_tx_polarity_flip_93.0=0x0
 port_init_autoneg_93.0=0
 port_phy_addr_93.0=0x7f
 portmap_93.0=105:40
+portmap_94.0=106:10:i
+portmap_95.0=107:10:i
+portmap_96.0=108:10:i
 serdes_firmware_mode_93.0=2
 xgxs_rx_lane_map_93.0=0x3120
 xgxs_tx_lane_map_93.0=0x3120
 
-# Port xe96
+# Port {xe96} [40G only]
 phy_an_c37_97.0=3
 phy_an_c73_97.0=1
 phy_xaui_rx_polarity_flip_97.0=0x0
@@ -815,7 +887,7 @@ serdes_firmware_mode_97.0=2
 xgxs_rx_lane_map_97.0=0x2031
 xgxs_tx_lane_map_97.0=0x2031
 
-# Port xe97
+# Port {xe97} [40G only]
 phy_an_c37_98.0=3
 phy_an_c73_98.0=1
 phy_xaui_rx_polarity_flip_98.0=0x0
@@ -827,7 +899,7 @@ serdes_firmware_mode_98.0=2
 xgxs_rx_lane_map_98.0=0x2031
 xgxs_tx_lane_map_98.0=0x2031
 
-# Port xe98
+# Port {xe98} [40G only]
 phy_an_c37_99.0=3
 phy_an_c73_99.0=1
 phy_xaui_rx_polarity_flip_99.0=0x0
@@ -839,7 +911,7 @@ serdes_firmware_mode_99.0=2
 xgxs_rx_lane_map_99.0=0x0213
 xgxs_tx_lane_map_99.0=0x0213
 
-# Port xe99
+# Port {xe99} [40G only]
 phy_an_c37_100.0=3
 phy_an_c73_100.0=1
 phy_xaui_rx_polarity_flip_100.0=0x0
@@ -851,7 +923,7 @@ serdes_firmware_mode_100.0=2
 xgxs_rx_lane_map_100.0=0x0213
 xgxs_tx_lane_map_100.0=0x0213
 
-# Port xe100
+# Port {xe100} [40G only]
 phy_84328_101.0=1
 phy_an_c37_101.0=3
 phy_an_c73_101.0=1
@@ -872,7 +944,7 @@ serdes_firmware_mode_101.0=1
 xgxs_rx_lane_map_101.0=0x0123
 xgxs_tx_lane_map_101.0=0x0123
 
-# Port xe101
+# Port {xe101} [40G only]
 phy_84328_102.0=1
 phy_an_c37_102.0=3
 phy_an_c73_102.0=1
@@ -893,7 +965,7 @@ serdes_firmware_mode_102.0=1
 xgxs_rx_lane_map_102.0=0x0123
 xgxs_tx_lane_map_102.0=0x0123
 
-# Port xe102
+# Port {xe102} [40G only]
 phy_84328_103.0=1
 phy_an_c37_103.0=3
 phy_an_c73_103.0=1
@@ -914,7 +986,7 @@ serdes_firmware_mode_103.0=1
 xgxs_rx_lane_map_103.0=0x0123
 xgxs_tx_lane_map_103.0=0x0123
 
-# Port xe103
+# Port {xe103} [40G only]
 phy_84328_104.0=1
 phy_an_c37_104.0=3
 phy_an_c73_104.0=1
