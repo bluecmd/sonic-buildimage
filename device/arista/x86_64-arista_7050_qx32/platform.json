@@ -207,7 +207,7 @@
                     "Ethernet26"
                 ]
             },
-            "index": "26,26,26,26",
+            "index": "26",
             "lanes": "57,58,59,60"
         },
         "Ethernet104": {
@@ -216,7 +216,7 @@
                     "Ethernet27"
                 ]
             },
-            "index": "27,27,27,27",
+            "index": "27",
             "lanes": "81,82,83,84"
         },
         "Ethernet108": {
@@ -225,7 +225,7 @@
                     "Ethernet28"
                 ]
             },
-            "index": "28,28,28,28",
+            "index": "28",
             "lanes": "85,86,87,88"
         },
         "Ethernet112": {
@@ -234,22 +234,16 @@
                     "Ethernet29"
                 ]
             },
-            "index": "29,29,29,29",
+            "index": "29",
             "lanes": "117,118,119,120"
         },
         "Ethernet116": {
             "breakout_modes": {
                 "1x40G": [
-                    "Ethernet30/1"
-                ],
-                "4x10G": [
-                    "Ethernet30/1",
-                    "Ethernet30/2",
-                    "Ethernet30/3",
-                    "Ethernet30/4"
+                    "Ethernet30"
                 ]
             },
-            "index": "30,30,30,30",
+            "index": "30",
             "lanes": "113,114,115,116"
         },
         "Ethernet12": {
@@ -273,7 +267,7 @@
                     "Ethernet31"
                 ]
             },
-            "index": "31,31,31,31",
+            "index": "31",
             "lanes": "5,6,7,8"
         },
         "Ethernet124": {
@@ -282,7 +276,7 @@
                     "Ethernet32"
                 ]
             },
-            "index": "32,32,32,32",
+            "index": "32",
             "lanes": "1,2,3,4"
         },
         "Ethernet16": {
